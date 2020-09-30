@@ -3454,7 +3454,7 @@ debug@3.1.0:
   dependencies:
     ms "2.0.0"
 
-debug@4, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
+debug@4, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.2.0.tgz#7f150f93920e94c58f5574c2fd01a3110effe7f1"
   integrity sha512-IX2ncY78vDTjZMFUdmsvIRFY2Cf4FnD0wRs+nQwJU8Lu99/tPFdb0VybiiMTPe3I6rQmwsqQqRBvxU+bZ/I8sg==
@@ -6780,15 +6780,15 @@ mkdirp@^0.5.1, mkdirp@^0.5.3:
   dependencies:
     minimist "^1.2.5"
 
-mongodb-memory-server-core@6.6.9:
-  version "6.6.9"
-  resolved "https://registry.yarnpkg.com/mongodb-memory-server-core/-/mongodb-memory-server-core-6.6.9.tgz#00bcd126bdfaf6f26a8bf1aa62ddc0692bfa755d"
-  integrity sha512-EC53iQv1FHQCNr9Km7GUGydYlK8+Wg1HodLxce3euRDe0CTyWyc7cShGndOYsFX9cDpsQLqLnUP4lWbl92exAQ==
+mongodb-memory-server-core@6.9.0:
+  version "6.9.0"
+  resolved "https://registry.yarnpkg.com/mongodb-memory-server-core/-/mongodb-memory-server-core-6.9.0.tgz#309d81bff7e67b4c2c2ac1ce788064dc6d172f67"
+  integrity sha512-MVA5lQ6ZULGrkbLJN2NddDaBhnVjb5QkxqsZ6cTj9vdIAACf+MuH/ZWPuBRD/9M6JqcmNc+/JgKW98l08cpd/Q==
   dependencies:
     "@types/tmp" "^0.2.0"
     camelcase "^6.0.0"
     cross-spawn "^7.0.3"
-    debug "^4.1.1"
+    debug "^4.2.0"
     find-cache-dir "^3.3.1"
     find-package-json "^1.2.0"
     get-port "^5.1.1"
@@ -6797,26 +6797,26 @@ mongodb-memory-server-core@6.6.9:
     md5-file "^5.0.0"
     mkdirp "^1.0.4"
     semver "^7.3.2"
-    tar-stream "^2.1.3"
+    tar-stream "^2.1.4"
     tmp "^0.2.1"
-    uuid "^8.2.0"
+    uuid "8.3.0"
     yauzl "^2.10.0"
   optionalDependencies:
-    mongodb "^3.5.9"
+    mongodb "3.6.2"
 
-mongodb-memory-server@6.6.9:
-  version "6.6.9"
-  resolved "https://registry.yarnpkg.com/mongodb-memory-server/-/mongodb-memory-server-6.6.9.tgz#31cbe69091166d70ccaff3e88099efe0594a0bd3"
-  integrity sha512-Jcq4CGLnJvh5+dfJSmfMOF/VtbgXSB3KUPOGPeTlfX5/Fn/IZBXWccrTUKx5l+8HrcYErCYm4n8Kz2dpz53eSQ==
+mongodb-memory-server@6.9.0:
+  version "6.9.0"
+  resolved "https://registry.yarnpkg.com/mongodb-memory-server/-/mongodb-memory-server-6.9.0.tgz#b8266442b1e10f855044cf13c6a047378c9e573e"
+  integrity sha512-3KvmVlMqjrzCO8J+Mq71fMRc3YwvA202ptaXhNV08oBsUk5rMkES7c6AIlp3uY7CcdomkoxpiJD7fjLv2Jx8QA==
   dependencies:
-    mongodb-memory-server-core "6.6.9"
+    mongodb-memory-server-core "6.9.0"
 
 mongodb-uri@0.9.7:
   version "0.9.7"
   resolved "https://registry.yarnpkg.com/mongodb-uri/-/mongodb-uri-0.9.7.tgz#0f771ad16f483ae65f4287969428e9fbc4aa6181"
   integrity sha1-D3ca0W9IOuZfQoeWlCjp+8SqYYE=
 
-mongodb@3.6.2, mongodb@^3.5.9:
+mongodb@3.6.2:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.6.2.tgz#1154a4ac107bf1375112d83a29c5cf97704e96b6"
   integrity sha512-sSZOb04w3HcnrrXC82NEh/YGCmBuRgR+C1hZgmmv4L6dBz4BkRse6Y8/q/neXer9i95fKUBbFi4KgeceXmbsOA==
@@ -8949,7 +8949,7 @@ tapable@^1.0.0, tapable@^1.1.3:
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-1.1.3.tgz#a1fccc06b58db61fd7a45da2da44f5f3a3e67ba2"
   integrity sha512-4WK/bYZmj8xLr+HUCODHGF1ZFzsYffasLUgEiMBY4fgtltdO6B4WJtlSbPaDTLpYTcGVwM2qLnFTICEcNxs3kA==
 
-tar-stream@^2.1.3:
+tar-stream@^2.1.4:
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/tar-stream/-/tar-stream-2.1.4.tgz#c4fb1a11eb0da29b893a5b25476397ba2d053bfa"
   integrity sha512-o3pS2zlG4gxr67GmFYBLlq+dM8gyRGUOvsrHclSkvtVtQbjV0s/+ZE8OpICbaj8clrX3tjeHngYGP7rweaBnuw==
@@ -9496,7 +9496,7 @@ uuid@8.1.0:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.1.0.tgz#6f1536eb43249f473abc6bd58ff983da1ca30d8d"
   integrity sha512-CI18flHDznR0lq54xBycOVmphdCYnQLKn8abKn7PXUiKUGdEd+/l9LWNJmugXel4hXq7S+RMNl34ecyC9TntWg==
 
-uuid@8.3.0, uuid@^8.0.0, uuid@^8.2.0, uuid@^8.3.0:
+uuid@8.3.0, uuid@^8.0.0, uuid@^8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.0.tgz#ab738085ca22dc9a8c92725e459b1d507df5d6ea"
   integrity sha512-fX6Z5o4m6XsXBdli9g7DtWgAx+osMsRRZFKma1mIUsLCz6vRvv+pz5VNbyu9UEDzpMWulZfvpgb/cmDXVulYFQ==
